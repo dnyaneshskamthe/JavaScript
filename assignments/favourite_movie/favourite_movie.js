@@ -1,4 +1,5 @@
 const movies = [];
+movies.splice
 
 function favouriteMovie(operation, movie) {
     // Write your code here
