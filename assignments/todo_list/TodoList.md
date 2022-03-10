@@ -11,3 +11,4 @@ Instructions
 * Add event listener on each todo as well, so that on clicking of that todo, it should be removed from the html document, you don't need to decrease the count of todo though
 
 Run ```npm run test todo_list``` to test your code
+bhushan-9404951013
