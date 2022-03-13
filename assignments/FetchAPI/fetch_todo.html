@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Todo List</title>
+        <style>
+            p{
+                border: 1px solid black;
+            }
+            .todos{
+                display: flex;
+            }
+            h3{
+                display: inline-flex;
+                justify-content: space-around;
+                padding-left: 200px;
+                padding-right: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <input type='text' name='todo_input'>
+            <button type='submit'>Add Todo</button>
+            <h1>Fetch API GET REQUEST</h1>
+            <h2>Fetching Users</h3>
+            <h3>Complete</h3>
+            <h3>Incomplete</h3>
+            <div class='todos'>
+                <div id="compl"></div>
+                
+                <div id="incompl"></div>
+                <!-- Table to display fetched user data -->
+            </div>
+        </div>
+    </body>
+    <script src='./script.js'></script>
+</html>

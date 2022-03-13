@@ -30,7 +30,7 @@ else{
     let p=document.createElement("p");
     p.setAttribute('key',count);
     //let key=0;
-    count+=1;
+    count=count+1;
     p.textContent=document.getElementsByTagName("input")[0].value;
     div_data.appendChild(p);
     document.getElementsByTagName("input")[0].value="";
